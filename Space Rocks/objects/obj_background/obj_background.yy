@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_background_kat",
+  "%Name":"obj_background",
   "eventList":[],
   "managed":true,
-  "name":"obj_background_kat",
+  "name":"obj_background",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",

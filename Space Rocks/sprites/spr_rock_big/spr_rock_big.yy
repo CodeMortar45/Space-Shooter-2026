@@ -20,6 +20,7 @@
   "HTile":false,
   "layers":[
     {"$GMImageLayer":"","%Name":"fdcfb615-566e-45ba-ac91-b072b3510a71","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"fdcfb615-566e-45ba-ac91-b072b3510a71","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"0fbab9ee-8d01-4ac5-935d-c421ad037593","blendMode":0,"displayName":"Layer 2","isLocked":false,"name":"0fbab9ee-8d01-4ac5-935d-c421ad037593","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"c7ccc72d-6820-4611-aa0c-06559ceaed75","blendMode":0,"displayName":"default","isLocked":false,"name":"c7ccc72d-6820-4611-aa0c-06559ceaed75","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_rock_big",
