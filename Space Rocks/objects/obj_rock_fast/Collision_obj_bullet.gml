@@ -15,7 +15,7 @@ direction = random (360)
 
 if sprite_index == spr_rock_fast
 {
-	sprite_index = spr_rock_small;
+	sprite_index = spr_rock_small_fast;
 	instance_copy (true);
 }
 else if instance_number (obj_rock_fast) <19
