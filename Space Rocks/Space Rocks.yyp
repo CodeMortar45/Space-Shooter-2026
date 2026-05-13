@@ -78,6 +78,8 @@
     {"id":{"name":"spr_rock_fast","path":"sprites/spr_rock_fast/spr_rock_fast.yy",},},
     {"id":{"name":"spr_rock_small_fast","path":"sprites/spr_rock_small_fast/spr_rock_small_fast.yy",},},
     {"id":{"name":"spr_rock_small","path":"sprites/spr_rock_small/spr_rock_small.yy",},},
+    {"id":{"name":"spr_tyrese_small1","path":"sprites/spr_tyrese_small1/spr_tyrese_small1.yy",},},
+    {"id":{"name":"spr_tyrese_small2","path":"sprites/spr_tyrese_small2/spr_tyrese_small2.yy",},},
     {"id":{"name":"spr_tyrese","path":"sprites/spr_tyrese/spr_tyrese.yy",},},
   ],
   "resourceType":"GMProject",
