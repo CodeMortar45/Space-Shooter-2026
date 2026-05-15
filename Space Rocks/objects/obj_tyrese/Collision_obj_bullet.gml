@@ -9,21 +9,6 @@ audio_play_sound (snd_big_rock_death, 0, false, 1, 0, random_range (0.6, 1));
 
 obj_game.points += 50;
 
-instance_destroy (other);
-
 direction = random (360)
 
-if sprite_index == spr_tyrese
-{
-	sprite_index = choose (spr_tyrese_small1, spr_tyrese_small2);
-	instance_copy (true);
-}
-else if instance_number (obj_tyrese) <19
-{
-	sprite_index = spr_tyrese;
-	x = -100;
-}
-else
-{
-	instance_destroy ();
-}
+

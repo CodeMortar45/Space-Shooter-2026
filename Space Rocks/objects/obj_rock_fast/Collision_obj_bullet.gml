@@ -18,7 +18,7 @@ if sprite_index == spr_rock_fast
 	sprite_index = spr_rock_small_fast;
 	instance_copy (true);
 }
-else if instance_number (obj_rock_fast) <19
+else if instance_number (obj_rock_fast) <7
 {
 	sprite_index = spr_rock_fast;
 	x = -100;
