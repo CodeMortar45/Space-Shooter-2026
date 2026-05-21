@@ -16,7 +16,9 @@ var _obj = choose(obj_nembhurt, obj_nembheal);
 sprite_index = spr_tyrese_hurt;
 alarm[2] = 20
 
-with (obj_bullet)
+if (obj_game.bullet_time <0)
 {
-	alarm [3] = 10
+var _obj = obj_tyrese_bullet;
+	instance_create_layer (x,y, "Instances", _obj);
+	obj_game.bullet_time = 20;
 }
