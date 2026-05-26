@@ -1,5 +1,6 @@
-speed = 2;
-direction = obj_player.image_angle;
+speed = 3;
 
-move_wrap (true,true,100);
+
 image_angle +=1;
+
+alarm[0] = 200;

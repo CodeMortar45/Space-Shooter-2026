@@ -44,3 +44,8 @@ if mouse_check_button_pressed (mb_right)
 	_bullet.direction -= 10;
 	}
 }
+
+if (powerup != 2)
+{
+	sprite_index = spr_player
+}

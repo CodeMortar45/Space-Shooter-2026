@@ -9,3 +9,8 @@ obj_tyrese.alarm [0] = 10;
 alarm[1] = 60
 
 alarm [3] = choose (5, 10 , 15)
+
+if (hp = 0)
+{
+	instance_destroy ()
+}

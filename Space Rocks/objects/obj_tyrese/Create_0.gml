@@ -1,1 +1,3 @@
-speed = 2.5
+speed = 2
+
+hp = 30;
