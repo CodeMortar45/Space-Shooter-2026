@@ -1,4 +1,10 @@
-if (obj_player.sprite_index = spr_player_shield)
+if (!has_collided) 
 {
-
+    has_collided = true;
 }
+	
+if (knocked_backed = true)
+{
+	exit;
+}
+

@@ -7,7 +7,10 @@ direction = random (360)
 instance_destroy(other)
 
 if (obj_game.nembhard_time <0)
-if instance_number(choose (obj_nembhurt, obj_nembheal)) >2 exit;
+if instance_number (obj_nembhurt or obj_nembheal) >2
+{
+exit
+}
 {
 var _obj = choose(obj_nembhurt, obj_nembheal);
 	instance_create_layer (x,y, "Instances", _obj);
