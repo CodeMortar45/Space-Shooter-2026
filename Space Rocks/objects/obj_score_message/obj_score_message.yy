@@ -28,8 +28,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_core_message",
-    "path":"sprites/spr_core_message/spr_core_message.yy",
+    "name":"spr_score_message",
+    "path":"sprites/spr_score_message/spr_score_message.yy",
   },
   "spriteMaskId":null,
   "visible":true,

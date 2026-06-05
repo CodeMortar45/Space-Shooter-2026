@@ -19,10 +19,12 @@ alarm[1] = 60
 
 alarm [3] = choose (5, 10 , 15)
 
-if (hp = 0)
+if (hp == 0)
 {
 	instance_destroy ()
-	alarm [4] = 60
+	audio_play_sound (snd_tyrese_death, 0, true);
+	if instance_number(obj_player)>0{
+	obj_game.alarm [3] = 60;}
 }
 
 

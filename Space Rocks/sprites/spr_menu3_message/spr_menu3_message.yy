@@ -1,11 +1,11 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_core_message",
+  "%Name":"spr_menu3_message",
   "bboxMode":0,
-  "bbox_bottom":93,
-  "bbox_left":33,
-  "bbox_right":486,
-  "bbox_top":49,
+  "bbox_bottom":72,
+  "bbox_left":96,
+  "bbox_right":405,
+  "bbox_top":48,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -21,7 +21,7 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"d43aa43b-4f8c-403a-95ef-447254029057","blendMode":0,"displayName":"default","isLocked":false,"name":"d43aa43b-4f8c-403a-95ef-447254029057","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_core_message",
+  "name":"spr_menu3_message",
   "nineSlice":null,
   "origin":0,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_core_message",
+    "%Name":"spr_menu3_message",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_core_message",
+    "name":"spr_menu3_message",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"882368bd-3698-4902-ac31-c548639bbe3e","path":"sprites/spr_core_message/spr_core_message.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"882368bd-3698-4902-ac31-c548639bbe3e","path":"sprites/spr_menu3_message/spr_menu3_message.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"849dfa7c-fd5d-4665-a069-d594f340fd35","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],

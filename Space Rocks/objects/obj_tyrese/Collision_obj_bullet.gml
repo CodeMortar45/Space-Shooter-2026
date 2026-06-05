@@ -1,10 +1,15 @@
-audio_play_sound (snd_big_rock_death, 0, false, 1, 0, random_range (0.6, 1));
+audio_play_sound (snd_big_rock_death, 0, false, 1, 0, random_range (0.4, 0.2));
 
 obj_game.points += 50;
 
 direction = random (360)
 
-instance_destroy(other)
+instance_destroy(other);
+
+if (!has_collided and knocked_backed = true)
+{
+	instance_destroy(other);
+}
 
 if (obj_game.nembhard_time <0)
 if instance_number (obj_nembhurt or obj_nembheal) >2
@@ -26,5 +31,4 @@ var _obj = obj_tyrese_bullet;
 	instance_create_layer (x,y, "Instances", _obj);
 	obj_game.bullet_time = 20;
 }
-
 hp -= other.damage
