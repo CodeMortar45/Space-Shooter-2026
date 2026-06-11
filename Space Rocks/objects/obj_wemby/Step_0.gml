@@ -4,5 +4,5 @@ image_angle -=1
 if (hp = 0)
 {
 instance_destroy ()
-obj_game.alarm [3] = 20
+obj_game.alarm [4] = 50
 }
